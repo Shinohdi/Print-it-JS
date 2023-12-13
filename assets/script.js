@@ -26,17 +26,10 @@ const parentDots = document.querySelector(".dots");
 
 arrow_left.addEventListener("click", () => {
 	changeSlider("left");
-	
-	//console.log(indexSlider);
-
 });
 
 arrow_right.addEventListener("click", () => {
 	changeSlider("right");
-
-	//console.log(indexSlider);
-
-
 });
 
 
@@ -50,7 +43,6 @@ for(let i = 0; i < slides.length; i++){
 
 	parentDots.appendChild(newDot);
 	dotList.push(newDot);
-	console.log(dotList);
 }
 
 function changeSlider(directionString){
